@@ -1,0 +1,8 @@
+(library
+ (name combobulate_oxcaml)
+ (public_name combobulate_oxcaml)
+ (libraries core unboxed.float_u unboxed.float32_u)
+ (flags
+  (:standard -extension comprehensions))
+ (preprocess
+  (pps ppx_template)))
